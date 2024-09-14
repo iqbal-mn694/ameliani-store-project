@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ameliani Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css"  rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+  <!-- Header -->
+  <header class="bg-white shadow-md">
+    <nav class="container mx-auto flex justify-between items-center p-4">
+      <a href="#" class="text-2xl font-bold text-gray-800">ameliani<span class="text-blue-600">Store</span></a>
+      <div class="flex items-center">
+        <input type="text" placeholder="Cari" class="border rounded-lg px-4 py-2 mr-2" />
+        <button class="bg-blue-600 text-white px-4 py-2 rounded-lg">Cari</button>
+      </div>
+      <div class="flex items-center space-x-4">
+        <a href="#" class="text-gray-600">Wishlist</a>
+        <a href="#" class="text-gray-600">Keranjang</a>
+        <a href="#" class="text-gray-600">Akun</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-cover bg-center h-56" style="background-image: url('/path-to-image.jpg');">
+    <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
+      <h1 class="text-white text-3xl font-bold">Penuhilah Kebutuhan Harian Anda</h1>
+    </div>
+  </section>
+
+  <!-- Category Section -->
+  <section class="container mx-auto mt-8">
+    <h2 class="text-xl font-semibold mb-4">Kategori</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
+      <div class="text-center">
+        <img src="/path-to-snack.png" alt="Snack" class="mx-auto h-16 w-16">
+        <p>Snack</p>
+      </div>
+      <div class="text-center">
+        <img src="/path-to-daily.png" alt="Sehari-hari" class="mx-auto h-16 w-16">
+        <p>Sehari-hari</p>
+      </div>
+      <!-- Add other categories similarly -->
+    </div>
+  </section>
+
+  <!-- Product Section -->
+  <section class="container mx-auto mt-8">
+    <h2 class="text-xl font-semibold mb-4">Sering Dibeli</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+      <div class="bg-white shadow rounded-lg p-4">
+        <img src="/path-to-product.png" alt="Minyak Bimoli" class="h-40 mx-auto">
+        <div class="mt-4 text-center">
+          <h3 class="text-lg font-semibold">Minyak Bimoli 1 Liter</h3>
+          <p class="text-gray-600">Rp. 30.000</p>
+          <div class="mt-4 flex justify-between">
+            <button class="text-sm text-gray-500">Wishlist</button>
+            <button class="bg-blue-600 text-white text-sm px-4 py-2 rounded-lg">Keranjang</button>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat for other products -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white mt-16">
+    <div class="container mx-auto py-8 flex justify-between">
+      <div>
+        <h3 class="font-bold text-lg">amelianiStore</h3>
+        <p>Jalan Raya Utara Sodo</p>
+        <p>0852-8882-7634</p>
+        <p>amelnistore23@gmail.com</p>
+      </div>
+      <div>
+        <h3 class="font-bold text-lg">Bantuan</h3>
+        <p>Pertanyaan</p>
+        <p>Pengiriman</p>
+        <p>Pengembalian Barang</p>
+      </div>
+      <div>
+        <h3 class="font-bold text-lg">Pembayaran</h3>
+        <img src="/path-to-payment-method.png" alt="Payment Methods">
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
+</body>
+</html>
