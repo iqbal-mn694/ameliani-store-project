@@ -52,10 +52,13 @@
               <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
             </li>
             <li>
-              <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+              <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Wishlist</a>
             </li>
             <li>
-              <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+              <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Cart</a>
+            </li>
+            <li>
+              <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Profile</a>
             </li>
           </ul>
         </div>
@@ -263,26 +266,28 @@
   </section>
 
   <!-- Footer -->
-  <footer class="bg-gray-900 text-white mt-16">
-    <div class="container mx-auto py-8 flex justify-between">
+  <footer class="bg-gray-800 text-white mt-16">
+    <div class="container md:mx-auto py-8 sm:px-6 lg:px-16 max-w-screen-lg flex flex-col md:flex-row justify-between mx-5 gap-8">
       <div>
-        <h3 class="font-bold text-lg">ameliani<span class="text-blue-600">Store</span></h3>
-        <p>Jalan Raya Utara Sodo,</p>
+        <h3 class="font-bold text-lg"> ameliani<span class="text-blue-600">Store</span></h3>
+        <p>Jalan Raya Utara Sodo</p>
         <p>0852-8882-7634</p>
-        <p>amelnistore23@gmail.com</p>
       </div>
       <div>
         <h3 class="font-bold text-lg">Bantuan</h3>
-        <p class="hover:text-blue-500 transition">Pertanyaan</p>
-        <p class="hover:text-blue-500 transition">Pengiriman</p>
-        <p class="hover:text-blue-500 transition">Pengembalian Barang</p>
+        <ul class="space-y-2">
+          <li>Pertanyaan</li>
+          <li>Pengiriman</li>
+          <li>Pengembalian Barang</li>
+        </ul>
       </div>
       <div>
         <h3 class="font-bold text-lg">Pembayaran</h3>
-        <img src="/path-to-payment-methods.png" alt="Payment Methods" class="mt-2">
+        <img src="/path-to-payment-method.png" alt="Payment Methods" class="mt-4">
       </div>
     </div>
   </footer>
+  
 
   <!-- Flowbite JS -->
   <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
